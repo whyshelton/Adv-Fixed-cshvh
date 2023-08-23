@@ -1,0 +1,91 @@
+﻿  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:3:
+  In file included from C:\Users\maksi\Desktop\kai angel\sdk\sdk.hpp:98:
+C:\Users\maksi\Desktop\kai angel\sdk/src/math/math.hpp(372,61): warning : all paths through this function will call itself [-Winfinite-recursion]
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:3:
+  In file included from C:\Users\maksi\Desktop\kai angel\sdk\sdk.hpp:98:
+  In file included from C:\Users\maksi\Desktop\kai angel\sdk/src/math/math.hpp:49:
+  In file included from C:\Users\maksi\Desktop\kai angel\sdk/src/math/detail/detail.hpp:11:
+C:\Users\maksi\Desktop\kai angel\sdk/src/math/detail/data_types/base_vec.hpp(203,22): warning : use of member 'dot' found via unqualified lookup into dependent bases of class templates is a Microsoft extension [-Wmicrosoft-template]
+C:\Users\maksi\Desktop\kai angel\sdk/src/math/impl/math.inl(230,20): message : in instantiation of member function 'sdk::detail::base_vec_t<float, 3>::rotate' requested here
+C:\Users\maksi\Desktop\kai angel\sdk/src/math/detail/data_types/base_vec.hpp(18,42): message : must qualify identifier to find this declaration in dependent base class
+C:\Users\maksi\Desktop\kai angel\sdk/src/math/detail/data_types/base_vec.hpp(203,47): warning : use of member 'dot' found via unqualified lookup into dependent bases of class templates is a Microsoft extension [-Wmicrosoft-template]
+C:\Users\maksi\Desktop\kai angel\sdk/src/math/detail/data_types/base_vec.hpp(18,42): message : must qualify identifier to find this declaration in dependent base class
+C:\Users\maksi\Desktop\kai angel\sdk/src/math/detail/data_types/base_vec.hpp(203,72): warning : use of member 'dot' found via unqualified lookup into dependent bases of class templates is a Microsoft extension [-Wmicrosoft-template]
+C:\Users\maksi\Desktop\kai angel\sdk/src/math/detail/data_types/base_vec.hpp(18,42): message : must qualify identifier to find this declaration in dependent base class
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:51:
+  In file included from hacks\aim_bot\impl/../../../valve/valve.hpp:4:
+  In file included from hacks\aim_bot\impl/../../../valve/other/other.hpp:1463:
+hacks\aim_bot\impl/../../../valve/other/impl/other.inl(136,19): warning : using the result of an assignment as a condition without parentheses [-Wparentheses]
+hacks\aim_bot\impl/../../../valve/other/impl/other.inl(136,19): message : place parentheses around the assignment to silence this warning
+hacks\aim_bot\impl/../../../valve/other/impl/other.inl(136,19): message : use '==' to turn this assignment into an equality comparison
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:51:
+  In file included from hacks\aim_bot\impl/../../../valve/valve.hpp:6:
+  In file included from hacks\aim_bot\impl/../../../valve/interfaces/interfaces.hpp:2:
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(160,26): warning : implicit conversion from 'const uint64_t' (aka 'const unsigned long long') to 'int' changes value from 8762467274753214785 to -1817802431 [-Wconstant-conversion]
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(156,41): message : expanded from macro 'crypt_int'
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(18,24): message : expanded from macro 'DYC_RAND_NEXT'
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(162,52): warning : implicit conversion from 'const uint64_t' (aka 'const unsigned long long') to 'int' changes value from 6233494540798131394 to 630979778 [-Wconstant-conversion]
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(156,41): message : expanded from macro 'crypt_int'
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(18,24): message : expanded from macro 'DYC_RAND_NEXT'
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(169,26): warning : implicit conversion from 'const uint64_t' (aka 'const unsigned long long') to 'int' changes value from 1927026027455500238 to 1332400078 [-Wconstant-conversion]
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(156,41): message : expanded from macro 'crypt_int'
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(18,24): message : expanded from macro 'DYC_RAND_NEXT'
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(171,54): warning : implicit conversion from 'const uint64_t' (aka 'const unsigned long long') to 'int' changes value from 11160423738651188409 to -2061230919 [-Wconstant-conversion]
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(156,41): message : expanded from macro 'crypt_int'
+hacks\aim_bot\impl/../../../valve/interfaces/random.h(18,24): message : expanded from macro 'DYC_RAND_NEXT'
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:51:
+  In file included from hacks\aim_bot\impl/../../../valve/valve.hpp:6:
+hacks\aim_bot\impl/../../../valve/interfaces/interfaces.hpp(36,50): warning : extra qualification on member 'net_channel_info' [-Wmicrosoft-extra-qualification]
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:51:
+  In file included from hacks\aim_bot\impl/../../../valve/valve.hpp:7:
+hacks\aim_bot\impl/../../../valve/entities/entities.hpp(80,19): warning : 'this' pointer cannot be null in well-defined C++ code; pointer may be assumed to always convert to true [-Wundefined-bool-conversion]
+hacks\aim_bot\impl/../../../valve/entities/entities.hpp(288,19): warning : 'this' pointer cannot be null in well-defined C++ code; pointer may be assumed to always convert to true [-Wundefined-bool-conversion]
+hacks\aim_bot\impl/../../../valve/entities/entities.hpp(440,19): warning : 'this' pointer cannot be null in well-defined C++ code; pointer may be assumed to always convert to true [-Wundefined-bool-conversion]
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:52:
+hacks\aim_bot\impl/../../../local_player/local_player.hpp(250,55): warning : duplicate 'const' declaration specifier [-Wduplicate-decl-specifier]
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:52:
+  In file included from hacks\aim_bot\impl/../../../local_player/local_player.hpp:355:
+hacks\aim_bot\impl/../../../local_player/impl/local_player.inl(101,22): warning : unused variable 'backup_state' [-Wunused-variable]
+hacks\aim_bot\impl/../../../local_player/impl/local_player.inl(156,4): warning : initializer order does not match the declaration order [-Wreorder-ctor]
+hacks\aim_bot\impl/../../../local_player/impl/local_player.inl(156,4): message : field 'm_frame_count' will be initialized after field 'm_real_time'
+hacks\aim_bot\impl/../../../local_player/impl/local_player.inl(158,4): message : field 'm_tick_count' will be initialized after field 'm_abs_frame_time'
+hacks\aim_bot\impl/../../../local_player/impl/local_player.inl(366,2): warning : misleading indentation; statement is not part of the previous 'if' [-Wmisleading-indentation]
+hacks\aim_bot\impl/../../../local_player/impl/local_player.inl(363,5): message : previous statement is here
+hacks\aim_bot\impl/../../../local_player/impl/local_player.inl(768,14): warning : unused variable 'cfg' [-Wunused-variable]
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:58:
+  In file included from hacks\aim_bot\impl/../../../hacks/hacks.hpp:7:
+  In file included from hacks\aim_bot\impl/../../../hacks/misc/misc.h:25:
+hacks\aim_bot\impl/../../../hacks/misc/impl/misc.inl(145,25): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:58:
+  In file included from hacks\aim_bot\impl/../../../hacks/hacks.hpp:13:
+hacks\aim_bot\impl/../../../hacks/lag_comp/lag_comp.h(49,62): warning : initializer order does not match the declaration order [-Wreorder-ctor]
+hacks\aim_bot\impl/../../../hacks/lag_comp/lag_comp.h(49,62): message : field 'm_flags' will be initialized after field 'm_dormant'
+hacks\aim_bot\impl/../../../hacks/lag_comp/lag_comp.h(57,103): message : field 'm_anim_layers' will be initialized after field 'm_obb_min'
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:58:
+  In file included from hacks\aim_bot\impl/../../../hacks/hacks.hpp:19:
+hacks\aim_bot\impl/../../../hacks/aim_bot/aim_bot.h(193,10): warning : 'this' pointer cannot be null in well-defined C++ code; pointer may be assumed to always convert to true [-Wundefined-bool-conversion]
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:58:
+  In file included from hacks\aim_bot\impl/../../../hacks/hacks.hpp:21:
+hacks\aim_bot\impl/../../../hacks/shots/shots.h(11,127): warning : initializer order does not match the declaration order [-Wreorder-ctor]
+hacks\aim_bot\impl/../../../hacks/shots/shots.h(11,127): message : field 'm_next_shift_amount' will be initialized after field 'm_sent_time'
+hacks\aim_bot\impl/../../../hacks/shots/shots.h(12,61): message : field 'm_cmd_number' will be initialized after field 'm_latency'
+hacks\aim_bot\impl/../../../hacks/shots/shots.h(101,123): warning : field 'm_confirmed' will be initialized after field 'm_hitbox' [-Wreorder-ctor]
+hacks\aim_bot\impl\aim_bot.cpp(610,22): warning : unused variable 'once' [-Wunused-variable]
+hacks\aim_bot\impl\aim_bot.cpp(1817,14): warning : unused variable 'hp' [-Wunused-variable]
+  In file included from hacks\aim_bot\impl\aim_bot.cpp:1:
+  In file included from hacks\aim_bot\impl/../../../csgo.hpp:51:
+  In file included from hacks\aim_bot\impl/../../../valve/valve.hpp:6:
+hacks\aim_bot\impl/../../../valve/interfaces/interfaces.hpp(247,19): warning : unused type alias 'add_notify_t' [-Wunused-local-typedef]
+  csgo.vcxproj -> C:\Users\maksi\Desktop\kai angel\output\debug\csgo.dll
